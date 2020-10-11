@@ -11,3 +11,4 @@ def plot_ecdf(data, title='ECDF Plot', xlabel='Data Values', ylabel='Percentage'
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
     plt.margins(0.02)
+yaxis = np.arange(1, len(data)+1)/len(data)
